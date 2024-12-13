@@ -1,6 +1,7 @@
 import React from "react";
 import eduquest from "../../assets/eduquest.png";
 import campquest from "../../assets/campquest1.png";
+import gemini from "../../assets/gemini.png";
 import ProjectCard from "./ProjectCard";
 
 export default function Project() {
@@ -44,6 +45,15 @@ export default function Project() {
         "MongoDB",
       ],
       img: campquest,
+    },
+    {
+      title: "Gemini Clone",
+      gitLink: "https://github.com/PrakharAgarwal135/GeminiClone",
+      liveLink: "https://github.com/PrakharAgarwal135/GeminiClone",
+      about:
+        "A chatbot that mimics the Google Gemini chatbot using the Gemini API. It provides real-time conversations and smart replies. Built with smooth and responsive user experience.",
+      stack: ["Gemini API", "Axios", "JavaScript", "HTML5", "CSS3"],
+      img: gemini,
     },
   ];
 

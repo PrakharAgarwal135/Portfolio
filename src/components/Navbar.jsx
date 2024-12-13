@@ -1,10 +1,16 @@
+import { useState } from "react";
 import { Icon } from "@iconify/react";
+
 import logo2 from "../assets/logo2.png";
+import MobileMenu from "./MobileMenu";
+
 export default function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <div className="fixed max-w-[90%] xl:max-w-[1223px] w-full z-10 select-none">
-        <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 std-backdrop-blur">
+        <div className="flex justify-between items-center px-6 py-4 rounded-2xl bg-gradient-to-r from-[#d9d9d91f] to-[#7373731f] mt-4 sm:mt-8 backdrop-blur-md">
           {/* logo  */}
           <div className="w-[35px] h-[35px]">
             <img src={logo2} alt="Logo" />
@@ -12,10 +18,18 @@ export default function Navbar() {
 
           {/* links  */}
           <ul className="hidden sm:flex gap-8 lg:gap-12 text-white">
-            <a href="#home">Home</a>
-            <a href="#projects">Projects</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" className="w-fit">
+              Home
+            </a>
+            <a href="#projects" className="w-fit">
+              Projects
+            </a>
+            <a href="#about" className="w-fit">
+              About
+            </a>
+            <a href="#contact" className="w-fit">
+              Contact
+            </a>
           </ul>
 
           {/* social icons  */}
@@ -36,8 +50,14 @@ export default function Navbar() {
 
           {/* Menu Icon for small screens */}
           <div className="sm:hidden text-white text-2xl">
-            <Icon icon="lucide:menu" />
+            <Icon
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="cursor-pointer flex sm:hidden text-2xl"
+              icon={`${menuOpen ? "gg:close" : "lucide:menu"}`}
+            />
           </div>
+
+          {menuOpen && <MobileMenu onMenuOpen={setMenuOpen} />}
         </div>
       </div>
     </>

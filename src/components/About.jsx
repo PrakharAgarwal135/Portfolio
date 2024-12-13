@@ -8,7 +8,7 @@ export default function About() {
       </div>
       {/* about  */}
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">
-        <div className="grid grid-cols-1 gap-6 text-white/80 text-xl md:text-2xl">
+        <div className="grid grid-cols-1 gap-6 text-white/80 text-xl md:text-xl">
           <div className="leading-[34px] md:leading-[39px]">
             Hello, I'm Prakhar Agarwal, currently pursuing B.Tech in Computer
             Science at Jaipur Engineering College and Research Centre.

@@ -54,7 +54,7 @@ export default function About() {
               Frontend Tools
             </div>
             <div className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript, React, Redux, HTML5, Git/GitHub, Axios, Maptiler
+              JavaScript, EJS, React, Redux, HTML5, Git/GitHub, Axios, Maptiler
             </div>
           </div>
           <div>

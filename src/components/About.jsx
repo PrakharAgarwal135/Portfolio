@@ -71,7 +71,7 @@ export default function About() {
             </div>
             <div className="text-white/60 text-base md:text-xl leading-8">
               NodeJs, ExpressJs, MongoDB, SQL, Razorpay, JWT, Sessions,
-              Passport.js
+              Passport.js, Postman Api
             </div>
           </div>
         </div>

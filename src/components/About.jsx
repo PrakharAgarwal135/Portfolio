@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className="flex flex-col gap-6 md:gap-10 pt-[110px]" id="about">
       <div className="uppercase text-5xl md:text-4xl xl:text-5xl font-bold text-[#b1b9c1]">
-        Person Behind the Projects
+        About Me
       </div>
       {/* about  */}
       <div className="grid grid-cols-1 lg:grid-cols-[8.5fr_3.5fr] gap-8 mt-6">

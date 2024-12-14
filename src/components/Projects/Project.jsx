@@ -49,7 +49,7 @@ export default function Project() {
     {
       title: "Gemini Clone",
       gitLink: "https://github.com/PrakharAgarwal135/GeminiClone",
-      liveLink: "https://github.com/PrakharAgarwal135/GeminiClone",
+      liveLink: "https://gemini121.netlify.app/",
       about:
         "A chatbot that mimics the Google Gemini chatbot using the Gemini API. It provides real-time conversations and smart replies. Built with smooth and responsive user experience.",
       stack: ["Gemini API", "Axios", "JavaScript", "HTML5", "CSS3"],

@@ -42,36 +42,36 @@ export default function About() {
         {/* tech stack  */}
         <div className="grid grid-cols-1 gap-4">
           <div>
-            <div className="font-bold antialiased text-xl md:text-2xl mb-2">
+            <div className="font-bold antialiased text-lg md:text-2xl mb-2">
               Programming Languages
             </div>
             <div className="text-white/60 text-base md:text-xl leading-8">
-              C, C++, Java, Python
+              C, C++, Javascript, Python
             </div>
           </div>
           <div>
-            <div className="font-bold antialiased text-xl md:text-2xl mb-2">
+            <div className="font-bold antialiased text-lg md:text-2xl mb-2">
               Frontend Tools
             </div>
             <div className="text-white/60 text-base md:text-xl leading-8">
-              JavaScript, EJS, React, Redux, HTML5, Git/GitHub, Axios, Maptiler
+              React, Redux, HTML5, CSS3, Tailwind, Bootstrap, MapTiler
             </div>
           </div>
           <div>
-            <div className="font-bold antialiased text-xl md:text-2xl mb-2">
-              UI Libraries
-            </div>
-            <div className="text-white/60 text-base md:text-xl leading-8">
-              CSS3, Tailwind CSS, Bootstrap, Bulma, Material UI
-            </div>
-          </div>
-          <div>
-            <div className="font-bold antialiased text-xl md:text-2xl mb-2">
+            <div className="font-bold antialiased text-lg md:text-2xl mb-2">
               Backend Tools
             </div>
             <div className="text-white/60 text-base md:text-xl leading-8">
               NodeJs, ExpressJs, MongoDB, SQL, Razorpay, JWT, Sessions,
-              Passport.js, Postman Api
+              Passport.js
+            </div>
+          </div>
+          <div>
+            <div className="font-bold antialiased text-lg md:text-2xl mb-2">
+              API & Tools
+            </div>
+            <div className="text-white/60 text-base md:text-xl leading-8">
+              Git/GitHub, Postman, Axios, REST APIs
             </div>
           </div>
         </div>

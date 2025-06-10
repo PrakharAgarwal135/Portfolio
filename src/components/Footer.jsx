@@ -14,12 +14,12 @@ export default function Footer() {
   return (
     <section
       id="footer"
-      className="my-6 sm:my-8 text-sm sm:text-base lg:text-lg flex md:justify-between justify-center"
+      className="my-6 sm:my-8 text-sm sm:text-base lg:text-lg flex justify-end "
     >
-      <p>
+      {/* <p>
         <span className="text-xl sm:text-2xl">&copy;</span> {curYear} . CREATED
         BY PRAKHAR AGARWAL
-      </p>
+      </p> */}
       <button
         className="md:flex hidden items-center gap-1 cursor-pointer"
         onClick={scrollToTop}

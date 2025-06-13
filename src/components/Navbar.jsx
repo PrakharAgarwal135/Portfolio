@@ -24,6 +24,9 @@ export default function Navbar() {
             <a href="#projects" className="w-fit">
               Projects
             </a>
+            <a href="#work" className="w-fit">
+              Work
+            </a>
             <a href="#about" className="w-fit">
               About
             </a>

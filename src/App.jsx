@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Project from "./components/Projects/Project";
+import Timeline from "./components/Experience/Timeline";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Project />
+      <Timeline />
       <About />
       <Contact />
       <Footer />

@@ -30,7 +30,7 @@ export default function Hero() {
         </p>
 
         <a
-          href="https://drive.google.com/file/d/1bR_JVQEzZ_moBaaimEQVxskcTx5UAuOj/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1q1kElI4UX0_BDriJ0apwBecJIFMCqsQy/view?usp=sharing"
           target="_blank"
           className="inline-block mt-6 px-6 py-3 bg-icon-radial text-white font-medium rounded-lg text-lg md:text-2xl"
         >
